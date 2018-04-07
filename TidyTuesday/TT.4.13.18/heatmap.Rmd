@@ -30,6 +30,7 @@ A<-ggplot(dfm, aes(fct_rev(State), variable)) +
   scale_fill_gradientn(colours = myPalette(11)) +
   labs(y="State", x="Years", fill="Tuition ($)")
 
+## Save to file
 pdf("heatmap.avg.tuition.pdf")
 plot(A)
 dev.off()
