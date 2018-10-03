@@ -1,4 +1,4 @@
-1 - query	
+1 - query	<br />
 2 - subject	
 3 - %id	
 4 - alignment length
